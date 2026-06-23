@@ -1,0 +1,6 @@
+inp =input('Input: ' )
+print('Output :')
+print(f'Uppercase: {inp.upper()}')
+print(f'Lowercase: {inp.lower()}')
+print(f'Replaced: {inp.replace(' ','_')}')
+print(f'Stripped: {inp.strip()}')
