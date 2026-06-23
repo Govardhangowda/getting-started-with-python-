@@ -1,0 +1,7 @@
+a=int(input('a: '))
+b=int(input('b: '))
+print(a&b)
+print(a|b)
+print(a^b)
+print(f'shifts the bits of a positions to left: {a << 2}')
+print(f'shifts the bits of b one position to right: {b >> 1}')
