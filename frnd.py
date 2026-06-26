@@ -1,0 +1,13 @@
+friends={
+    'frnd1':{
+        'name':'david',
+        'fvrt_sbjct':'sports',
+        'fvrt_food':'manchurian',
+    },
+    'frnd2':{
+        'name':'salt',
+        'fvrt_sbjct':'cars',
+        'fvrt_food':'tea',
+    }
+}
+print(friends['frnd1']['fvrt_food'])
