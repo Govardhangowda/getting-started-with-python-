@@ -1,7 +1,12 @@
-class calculator:
-    def multiply(self,a,b,c=1):
-        print(f'The result of multiplication is : {a*b*c}')
+class shape:
+    def draw(self):
+        print('drawing shape')
         
-clct1=calculator()
-clct1.multiply(2,3)
-clct1.multiply(2,3,4)
+class circle(shape):
+    def draw(self):
+        print('drawing circle')
+        
+crc=circle()
+cs=shape()
+crc.draw()
+cs.draw()
