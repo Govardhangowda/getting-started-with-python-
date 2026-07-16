@@ -1,0 +1,8 @@
+tup=("bachchan","robert","yajamana","kurukshetra","kgf")
+it=iter(tup)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
